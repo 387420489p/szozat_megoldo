@@ -24,3 +24,11 @@ while letter!='':
   words=wordlist.copy()
   print(*wordlist)
   print(f"Lehetséges helyes szavak: {len(words)} db")
+
+  if len(words) < 1:
+    print("Sajnos a szó valószínűleg kettős betűt (sz, cs, gy...) tartalmaz, amit egyelőre nem támogat a program. \nVagy nincs benne a program szótárában. ¯\_(ツ)_/¯")
+    #uj_szotar = print(input("Úgy néz ki nincs a szó a szótárban, vagy dupla betű (sz, gy, stb...) van benne. Szeretnéd megpróbálni a dupla betűs szótárral? I/N "))
+    #if uj_szotar == "I":
+      #print("oké próbáljuk meg!")
+    #else:
+      #print("rip. legalább a funkció működik. (:")
