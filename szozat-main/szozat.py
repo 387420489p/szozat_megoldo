@@ -10,18 +10,41 @@ def szozat():
     words = w.readlines()
   new_words = vissza_words
 
-#Ez változtatja át a kettős karaktereket számokra
+#double letters to numbers
   for word in words:
-    new_word = word.replace("cs", "1")
+    new_word = word.replace("cs", "1").replace("sz", "2").replace("ty", "3").replace("dz", "4").replace("gy", "5").replace("ly", "6").replace("ny", "7").replace("zs", "8")
     new_words.append(new_word)
 
 #inputs, exceptions
   while letter!='':
     del wordlist[:]
     letter=input("Milyen betűt ismersz? ")
-    while letter not in ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "í", "é", "á", "ű", "ő", "ú", "ö", "ü", "ó"]:
+    while letter not in ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "í", "é", "á", "ű", "ő", "ú", "ö", "ü", "ó", "cs", "sz", "ty", "dz", "gy", "ly", "ny", "zs"]:
       print(f"A(z) {letter} nem egy betű, próbáld újra!")
       letter = input("Milyen betűt ismersz? ")
+
+#double character exceptions
+    while letter in ["cs", "sz", "ty", "dz", "gy", "ly", "ny", "zs"]:
+      if letter == "cs":
+        letter = "1"
+      elif letter == "sz":
+        letter = "2"
+      elif letter == "ty":
+        letter = "3"
+      elif letter == "dz":
+        letter = "4"
+      elif letter == "gy":
+        letter = "5"
+      elif letter == "ly":
+        letter = "6"
+      elif letter == "ny":
+        letter = "7"
+      elif letter == "zs":
+        letter = "8"
+      else:
+        pass
+#--------------------
+
     color=input("Milyen színű? (S,Z,F): ")
     while color not in ["F", "f", "Z", "z", "S", "s"]:
       print(f"A(z) {color} nem a szín kezdőbetűje. Kérlek írd be a helyes szín kezdőbetűjét! (s, f, z)")
@@ -43,22 +66,18 @@ def szozat():
             wordlist.append(word)
     new_words=wordlist.copy()
 
-    #vissza 1-ből cs-be
-    for word in new_words:
-      vissza_word = word.replace("1", "cs")
+#back from number to letter
+    for new_word in new_words:
+      vissza_word = new_word.replace("1", "cs").replace("2", "sz").replace("3", "ty").replace("4 ", "dz").replace("5", "gy").replace("6", "ly").replace("7", "ny").replace("8", "zs")
       vissza_words.append(vissza_word)
-      vissza_words.remove(word)
+      vissza_words.remove(new_word)
       wordlist = vissza_words
 
     print(*wordlist)
     print(f"Lehetséges helyes szavak: {len(new_words)} db")
 
     if len(new_words) < 1:
-      print("Sajnos a szó valószínűleg kettős betűt (sz, cs, gy...) tartalmaz, amit egyelőre nem támogat a program. \nVagy nincs benne a program szótárában. ¯\_(ツ)_/¯")
-      #uj_szotar = print(input("Úgy néz ki nincs a szó a szótárban, vagy dupla betű (sz, gy, stb...) van benne. Szeretnéd megpróbálni a dupla betűs szótárral? I/N "))
-      #if uj_szotar == "I":
-        #print("oké próbáljuk meg!")
-      #else:
-        #print("rip. legalább a funkció működik. (:")
+      print("Sajnos a szó nincs benne a program szótárában. ¯\_(ツ)_/¯")
+
 
 szozat()
