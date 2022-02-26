@@ -3,8 +3,19 @@ def szozat():
   letter="a"
   position=1
   wordlist=[]
+  new_words = []
+  vissza_words = []
+  vissza_wordlist = []
   with open('szavak.txt', encoding="utf=8") as w:
     words = w.readlines()
+  new_words = vissza_words
+
+#Ez változtatja át a kettős karaktereket számokra
+  for word in words:
+    new_word = word.replace("cs", "1")
+    new_words.append(new_word)
+
+#inputs, exceptions
   while letter!='':
     del wordlist[:]
     letter=input("Milyen betűt ismersz? ")
@@ -17,7 +28,9 @@ def szozat():
       color = input("Milyen színű? (S, Z, F vagy s, z, f) ")
     if color == 'z' or color == 'Z' or color == 's' or color == 'S':
       position=int(input("Hányadik helyen áll? (1-5)"))-1
-    for word in words:
+
+#magic word finder and sorter
+    for word in new_words:
       if color == 'z' or color == 'Z':
         if word[position]==letter:
           wordlist.append(word)
@@ -28,11 +41,19 @@ def szozat():
         if letter in word:
           if word[position]!=letter:
             wordlist.append(word)
-    words=wordlist.copy()
-    print(*wordlist)
-    print(f"Lehetséges helyes szavak: {len(words)} db")
+    new_words=wordlist.copy()
 
-    if len(words) < 1:
+    #vissza 1-ből cs-be
+    for word in new_words:
+      vissza_word = word.replace("1", "cs")
+      vissza_words.append(vissza_word)
+      vissza_words.remove(word)
+      wordlist = vissza_words
+
+    print(*wordlist)
+    print(f"Lehetséges helyes szavak: {len(new_words)} db")
+
+    if len(new_words) < 1:
       print("Sajnos a szó valószínűleg kettős betűt (sz, cs, gy...) tartalmaz, amit egyelőre nem támogat a program. \nVagy nincs benne a program szótárában. ¯\_(ツ)_/¯")
       #uj_szotar = print(input("Úgy néz ki nincs a szó a szótárban, vagy dupla betű (sz, gy, stb...) van benne. Szeretnéd megpróbálni a dupla betűs szótárral? I/N "))
       #if uj_szotar == "I":
