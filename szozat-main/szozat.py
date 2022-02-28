@@ -1,4 +1,5 @@
 def szozat():
+  print("Ez a program segít megoldani a Szózat nevű játékot.\nhttps://szozat.miklosdanka.com/\nTedd meg az első tipped a játékban és írd be az ismert betűket a megfelelő színnel.\nAhhoz, hogy a program jól működjön legalább 2 betűt meg kell adnod!")
   words = []
   letter="a"
   position=1
@@ -50,7 +51,8 @@ def szozat():
       print(f"A(z) {color} nem a szín kezdőbetűje. Kérlek írd be a helyes szín kezdőbetűjét! (s, f, z)")
       color = input("Milyen színű? (S, Z, F vagy s, z, f) ")
     if color == 'z' or color == 'Z' or color == 's' or color == 'S':
-      position=int(input("Hányadik helyen áll? (1-5)"))-1
+      position=int(input("Hányadik helyen áll? (1-5)" ))-1
+
 
 #magic word finder and sorter
     for word in new_words:
