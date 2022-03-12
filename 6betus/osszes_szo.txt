@@ -1272,7 +1272,6 @@ apóka
 apóka
 arabs
 aradi
-aran>
 araszt
 arató
 arcél
@@ -1695,7 +1694,6 @@ buzul
 buzér
 bábos
 báboz
-bábu>
 bádog
 bágyad
 bájak
@@ -2564,7 +2562,6 @@ előír
 előíz
 előül
 email
-embe>
 ember
 emelt
 emelő
@@ -2753,7 +2750,6 @@ felső
 felun
 felár
 felás
-felé>
 felég
 felél
 felér
@@ -3551,7 +3547,6 @@ hímes
 hímez
 hímnő
 hínár
-híre>
 hírek
 híres
 hívat
@@ -4300,7 +4295,6 @@ kutas
 kutasz
 kutat
 kutin
-kutya>
 kutyul
 kutyus
 kutyás
@@ -4545,7 +4539,6 @@ lakos
 lakta
 lakáj
 lakás
-lakó>
 lamúr
 lanka
 lanyha
@@ -5178,7 +5171,6 @@ muksó
 mulat
 mumpsz
 mumus
-munk>
 munka
 murci
 muris
@@ -5629,7 +5621,6 @@ pajesz
 pajor
 pajta
 pajti
-pajz>
 pakli
 pakol
 palka
@@ -6944,7 +6935,6 @@ tarka
 tarkó
 tarló
 tarol
-tart>
 tartó
 taréj
 tasak
@@ -6970,7 +6960,6 @@ tejkő
 tejút
 teker
 teknő
-tele>
 telek
 telel
 telep
@@ -7442,7 +7431,6 @@ vetít
 vetül
 vevény
 vevők
-veze>
 vezet
 vezér
 vezír
@@ -7491,7 +7479,6 @@ vizit
 vizsga
 vizsla
 vlach
-vmne>
 vmnél
 vmről
 vmért
@@ -7551,7 +7538,6 @@ vásít
 vátesz
 vázol
 védet
-védi>
 védmű
 védés
 végcső
