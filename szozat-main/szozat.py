@@ -1,13 +1,10 @@
 def szozat():
     print(
         "Ez a program segít megoldani a Szózat nevű játékot.\nhttps://szozat.miklosdanka.com/\nTedd meg az első tipped a játékban és írd be az ismert betűket a megfelelő színnel.\nAhhoz, hogy a program jól működjön legalább 2 betűt meg kell adnod!")
-    words = []
     letter = "a"
     position = 1
     wordlist = []
-    new_words = []
     vissza_words = []
-    vissza_wordlist = []
     with open('osszes_szo.txt', encoding="utf=8") as w:
         words = w.readlines()
     new_words = vissza_words
@@ -24,7 +21,7 @@ def szozat():
         while letter not in ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
                              "s", "t", "u", "v", "w", "x", "y", "z", "í", "é", "á", "ű", "ő", "ú", "ö", "ü", "ó", "cs",
                              "sz", "ty", "dz", "gy", "ly", "ny", "zs"]:
-            print(f"A(z) {letter} nem egy betű, próbáld újra!")
+            print(f"A(z) {letter} nem egy érvényes betű, próbáld újra! ᕙ(⇀‸↼‶)ᕗ")
             letter = input("Milyen betűt ismersz? ")
 
         # double character exceptions
@@ -54,7 +51,32 @@ def szozat():
             print(f"A(z) {color} nem a szín kezdőbetűje. Kérlek írd be a helyes szín kezdőbetűjét! (s, f, z)")
             color = input("Milyen színű? (S, Z, F vagy s, z, f) ")
         if color == 'z' or color == 'Z' or color == 's' or color == 'S':
-            position = int(input("Hányadik helyen áll? (1-5)")) - 1
+            while True:
+                try:
+                    position = int(input("Hányadik helyen áll? (1-5)")) - 1
+                    break
+                except ValueError:
+                    print("Ez nem nem egy szám, kérlek írj be egy számot 1-5 között!")
+            if position == 387420488:
+                print(r"""              .---. .---.     Nice job, you found me!
+             :     : o   :       Have a cookie!
+         _..-:   o :     :-.._     - 387420489
+     .-''  '  `---' `---' "   ``-.      /
+   .'   "   '  "  .    "  . '  "  `.  
+  :   '.---.,,.,...,.,.,.,..---.  ' ;
+  `. " `.                     .' " .'
+   `.  '`.                   .' ' .'
+    `.    `-._           _.-' "  .'  .----.
+      `. "    '"--...--"'  . ' .'  .'  o   `.
+      .'`-._'    " .     " _.-'`. :       o  :
+    .'      ```--.....--'''    ' `:_ o       :
+  .'    "     '         "     "   ; `.;";";";'
+ ;         '       "       '     . ; .' ; ; ;
+;     '         '       '   "    .'      .-'
+'  "     "   '      "           "    _.-'""")
+            while str(position) not in ["0", "1", "2", "3", "4"]:
+                print(f"A(z) {position} nem megfelelő érték! Írd be a betű pozícióját 1-5 között!")
+                position = int(input("Hányadik helyen áll? (1-5)")) - 1
 
         # magic word finder and sorter
         for word in new_words:
@@ -72,7 +94,7 @@ def szozat():
 
         # back from number to letter
         for new_word in new_words:
-            vissza_word = new_word.replace("1", "cs").replace("2", "sz").replace("3", "ty").replace("4 ", "dz").replace(
+            vissza_word = new_word.replace("1", "cs").replace("2", "sz").replace("3", "ty").replace("4", "dz").replace(
                 "5", "gy").replace("6", "ly").replace("7", "ny").replace("8", "zs")
             vissza_words.append(vissza_word)
             vissza_words.remove(new_word)
@@ -82,7 +104,7 @@ def szozat():
         print(f"Lehetséges helyes szavak: {len(new_words)} db")
 
         if len(new_words) < 1:
-            print("Sajnos a szó nincs benne a program szótárában. ¯\_(ツ)_/¯")
+            print("Valami félresiklott! Esetleg rossz betűt adtál meg valahol? Rossz színt?")
 
 
 szozat()
