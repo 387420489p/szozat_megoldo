@@ -8,7 +8,7 @@ def szozat():
     new_words = []
     vissza_words = []
     vissza_wordlist = []
-    with open('uj_szavak.txt', encoding="utf=8") as w:
+    with open('osszes_szo.txt', encoding="utf=8") as w:
         words = w.readlines()
     new_words = vissza_words
 
