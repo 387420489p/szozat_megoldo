@@ -17,12 +17,12 @@ def szozat():
     # inputs, exceptions
     while letter != '':
         del wordlist[:]
-        letter = input("Milyen betűt ismersz? ")
+        letter = input("Milyen betűt ismersz? ").lower()
         while letter not in ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
                              "s", "t", "u", "v", "w", "x", "y", "z", "í", "é", "á", "ű", "ő", "ú", "ö", "ü", "ó", "cs",
                              "sz", "ty", "dz", "gy", "ly", "ny", "zs"]:
             print(f"A(z) {letter} nem egy érvényes betű, próbáld újra! ᕙ(⇀‸↼‶)ᕗ")
-            letter = input("Milyen betűt ismersz? ")
+            letter = input("Milyen betűt ismersz? ").lower()
 
         # double character exceptions
         while letter in ["cs", "sz", "ty", "dz", "gy", "ly", "ny", "zs"]:
