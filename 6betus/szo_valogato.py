@@ -1,5 +1,6 @@
-words = []
+#
 wordlist = []
+i = 0
 with open("magyar-szavak.txt", encoding="utf=8") as r:
     words = r.readlines()
 
@@ -11,6 +12,27 @@ for word in words:
     elif len(word) == 6 and word.isalpha():
         if "sz" in word or "cs" in word or "dz" in word or "gy" in word or "ly" in word or "ny" in word or "ty" in word or "zs" in word:
             wordlist.append(word)
+    elif len(word) == 7 and word.isalpha():
+        for dupla in word:
+            if "sz" in word:
+                i += 1
+            if "dz" in word:
+                i += 1
+            if "gy" in word:
+                i += 1
+            if "ly" in word:
+                i += 1
+            if "ny" in word:
+                i += 1
+            if "ty" in word:
+                i += 1
+            if "zs" in word:
+                i += 1
+            if "cs" in word:
+                i += 1
+            if i == 7*2:
+                wordlist.append(word)
+        i = 0
     else:
         pass
 

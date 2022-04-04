@@ -870,6 +870,7 @@ riana
 ritta
 robin
 rodel
+rodzser
 rokkó
 román
 ronel
@@ -887,6 +888,7 @@ ráhel
 ráhel
 rájen
 rákis
+rázsony
 rémus
 rémusz
 rókus
@@ -1046,6 +1048,8 @@ vitéz
 vojta
 votan
 vásti
+vászoly
+vázsony
 vélia
 vénusz
 xavér
@@ -1274,6 +1278,8 @@ arabs
 aradi
 araszt
 arató
+arcszín
+arcszög
 arcél
 argon
 arkusz
@@ -1283,6 +1289,7 @@ arzén
 arámi
 arányú
 aréna
+asszony
 asszír
 aszalt
 aszaló
@@ -1350,6 +1357,8 @@ balul
 bamba
 bambi
 banda
+bandzsa
+bandzsi
 bangó
 banka
 banki
@@ -1380,6 +1389,7 @@ becsap
 becsen
 becses
 becslő
+becsszó
 becsuk
 becsár
 becsér
@@ -1468,6 +1478,7 @@ bemer
 bemos
 bemér
 beműt
+bendzsó
 bendő
 benge
 benne
@@ -1503,6 +1514,7 @@ beszop
 beszán
 beszéd
 beszél
+beszély
 beszít
 beszív
 beszól
@@ -1707,6 +1719,7 @@ bámész
 bánat
 bánik
 bántó
+bányász
 bánás
 bárca
 bárgyú
@@ -1886,6 +1899,7 @@ csahol
 csahos
 csajka
 csakis
+csakúgy
 csalat
 csalfa
 csalit
@@ -1899,6 +1913,7 @@ csapfa
 csapol
 csapos
 csapoz
+csapágy
 csapás
 csapáz
 csarab
@@ -1912,7 +1927,9 @@ csausz
 csavar
 cseber
 csecse
+csegely
 csehül
+csekély
 cselek
 cseles
 cselez
@@ -1936,12 +1953,15 @@ cserlé
 cserző
 cserék
 cserél
+cserény
 cserép
+cseszik
 csetri
 cseveg
 csevej
 csibor
 csibuk
+csibész
 csicsa
 csiger
 csigán
@@ -1950,15 +1970,19 @@ csigáz
 csihad
 csihol
 csikar
+csikasz
 csikiz
 csikló
 csikós
 csille
 csilló
+csimasz
 csinos
 csinál
 csipeg
+csipesz
 csipet
+csipisz
 csipke
 csipog
 csipás
@@ -1968,6 +1992,9 @@ csirke
 csirág
 csirák
 csirás
+csiszol
+csiszál
+csiszár
 csitri
 csitul
 csitít
@@ -1989,14 +2016,17 @@ csorba
 csorda
 csorgó
 csorog
+csoszog
 csuhaj
 csuhás
 csukat
 csukcs
+csuklya
 csukló
 csukás
 csukók
 csumáz
+csupasz
 csupor
 csupán
 csurgó
@@ -2004,18 +2034,22 @@ csurig
 csurog
 csurom
 csusza
+csuszka
 csutak
 csutka
 csuvas
 csábos
 csábul
 csábít
+csáklya
 csákoz
+csákány
 csákós
 csángó
 csápol
 csápos
 csárda
+császár
 csáváz
 csécsi
 csépel
@@ -2027,6 +2061,7 @@ csévéz
 csíkok
 csíkos
 csíkoz
+csíkász
 csínoz
 csípet
 csípés
@@ -2038,6 +2073,7 @@ csókol
 csókos
 csónak
 csórás
+csótány
 csótár
 csóvál
 csöbör
@@ -2058,7 +2094,15 @@ csúfos
 csúful
 csúfít
 csúnya
+csúnyul
+csúnyán
+csúnyít
+csúszda
+csúszik
+csúszka
+csúszás
 csúszó
+csúszós
 csúzfű
 csúzli
 csúzos
@@ -2075,6 +2119,7 @@ csődül
 csődül
 csőfal
 csőfar
+csőgyár
 csőköz
 csőkút
 csőrök
@@ -2082,6 +2127,7 @@ csőröl
 csőrös
 csőrül
 csőről
+csőszáj
 csőtok
 csőváz
 csővég
@@ -2210,6 +2256,7 @@ doboz
 dobszó
 dobál
 dobás
+dodzsem
 dogma
 dohog
 dohos
@@ -2261,8 +2308,13 @@ dunyha
 dupla
 durva
 durák
+dzsebel
+dzsidás
 dzsigg
+dzsihad
 dzsinn
+dzsunka
+dzsóker
 dácia
 dácit
 dákos
@@ -2287,6 +2339,7 @@ díszfa
 díszfű
 dísznő
 dísztű
+díszágy
 díszít
 dívik
 díván
@@ -2350,6 +2403,7 @@ egykor
 egylet
 egymás
 egypár
+egyszer
 egység
 egyágú
 egyélű
@@ -2379,6 +2433,7 @@ elbőg
 elcsal
 elcsap
 elcsen
+elcsesz
 elcsuk
 elcsíp
 elcsór
@@ -2574,6 +2629,7 @@ emészt
 enged
 engem
 ennek
+enyhely
 enyhes
 enyhén
 enyhít
@@ -2606,6 +2662,7 @@ erkély
 ernyed
 ernyős
 ernyőz
+erszény
 erőmű
 eseng
 eseti
@@ -2617,6 +2674,7 @@ estély
 eszköz
 eszmei
 eszmél
+eszmény
 esélyt
 esési
 esőlé
@@ -2693,6 +2751,7 @@ farács
 fasor
 faszeg
 faszol
+faszság
 faszén
 fater
 fattyú
@@ -2786,6 +2845,7 @@ filkó
 filmé
 filosz
 fincsi
+findzsa
 finesz
 finis
 finom
@@ -2795,6 +2855,7 @@ firka
 firma
 fitos
 fityeg
+fityisz
 fityma
 fivér
 fixál
@@ -2950,6 +3011,7 @@ fémez
 fémip
 fémmű
 fémsó
+fénycső
 fényes
 fényez
 fényle
@@ -3151,6 +3213,7 @@ gurít
 guszta
 guvad
 guvat
+guzsaly
 gyagya
 gyalog
 gyalom
@@ -3169,6 +3232,7 @@ gyenge
 gyepes
 gyeplő
 gyerek
+gyertya
 gyilok
 gyogyó
 gyolcs
@@ -3178,23 +3242,30 @@ gyomos
 gyopár
 gyulai
 gyurma
+gyutacs
 gyámfa
 gyámkő
 gyámív
 gyáros
 gyártó
+gyászol
+gyászos
+gyászév
 gyávul
 gyáván
+gyékény
 gyéren
 gyérít
 gyérül
 gyíkfű
 gyónik
 gyónás
+gyökszó
 gyökér
 gyökök
 gyönge
 gyöngy
+gyönyör
 gyöpös
 gyötrő
 gyötör
@@ -3203,6 +3274,7 @@ gyúlás
 gyúrat
 gyúrma
 gyúrás
+gyúszeg
 gyürke
 győzet
 gyűjtő
@@ -3233,6 +3305,8 @@ gázcső
 gázló
 gázol
 gázos
+gázszag
+gázszén
 gébics
 gégész
 gémes
@@ -3321,6 +3395,7 @@ halőr
 hamar
 hamis
 hamus
+handzsa
 hanem
 hanga
 hangya
@@ -3362,6 +3437,7 @@ haver
 hazai
 hazug
 hebeg
+hedzsra
 hefti
 heged
 heges
@@ -3376,6 +3452,7 @@ helyes
 helyet
 helyez
 helyke
+helynyi
 helyre
 helyár
 helyén
@@ -3520,6 +3597,7 @@ házal
 házas
 háznyi
 házsor
+házszám
 házuk
 héber
 hébér
@@ -3557,6 +3635,7 @@ hívők
 hízik
 hízás
 hódol
+hódzsír
 hódít
 hóeke
 hófal
@@ -3572,6 +3651,7 @@ hószín
 hóvak
 hörgő
 hörög
+húgycső
 húgykő
 húgyoz
 húros
@@ -3699,6 +3779,7 @@ istác
 iszkol
 iszlám
 iszony
+iszonyú
 italé
 itató
 ittad
@@ -3858,6 +3939,7 @@ kanca
 kancsi
 kancsó
 kandi
+kandzsi
 kankó
 kanna
 kanos
@@ -3967,6 +4049,7 @@ kerül
 kesely
 keszeg
 keszon
+kesztyű
 keton
 ketté
 kettő
@@ -3993,7 +4076,9 @@ kibőg
 kicsal
 kicsap
 kicsen
+kicsesz
 kicsik
+kicsiny
 kicsit
 kicsuk
 kicsíp
@@ -4178,6 +4263,7 @@ kocog
 kocsin
 kocsis
 kocsma
+kocsány
 kohol
 kohász
 koiné
@@ -4372,6 +4458,7 @@ késes
 késet
 késik
 készen
+készség
 készít
 készül
 késél
@@ -4469,6 +4556,7 @@ közjó
 közlő
 közmű
 közre
+közszáj
 közszó
 község
 közte
@@ -4818,6 +4906,7 @@ lurkó
 lusta
 lutri
 luxus
+lyukacs
 lyukas
 lábad
 lábak
@@ -4838,6 +4927,7 @@ lágyul
 lágyék
 lágyít
 lámpa
+lándzsa
 lángú
 lányka
 lányos
@@ -4975,6 +5065,7 @@ mambó
 mamusz
 mamut
 mancsú
+mandzsu
 mangó
 mankó
 manna
@@ -5082,6 +5173,7 @@ metán
 metél
 mezei
 mezon
+mezsgye
 mezők
 mezőn
 mezőny
@@ -5252,6 +5344,7 @@ mézes
 mézez
 mézfű
 mézga
+mézszín
 mézsör
 míder
 mímel
@@ -5353,6 +5446,7 @@ nevez
 nexus
 nihil
 nimfa
+nindzsa
 nocsak
 nomád
 norma
@@ -5400,6 +5494,8 @@ nyilak
 nyilas
 nyilaz
 nyirok
+nyiszog
+nyiszál
 nyitja
 nyitás
 nyomat
@@ -5415,6 +5511,7 @@ nyugat
 nyugis
 nyugta
 nyugvó
+nyugágy
 nyulak
 nyulas
 nyurga
@@ -5446,8 +5543,11 @@ nyúlás
 nyúlós
 nyúzat
 nyúzás
+nyüszít
 nyüves
+nyüzsgő
 nyüzsi
+nyüzsög
 nyűgös
 nyűgöz
 nábob
@@ -5457,6 +5557,7 @@ nádas
 nádaz
 nádor
 násfa
+nászágy
 nászút
 nátha
 néger
@@ -5510,6 +5611,7 @@ nőzés
 nőíró
 oboás
 obsit
+ocsmány
 odaad
 odafő
 odalő
@@ -5595,6 +5697,7 @@ oszlás
 oszmán
 osztag
 osztat
+osztály
 osztás
 ottan
 ounce
@@ -5656,6 +5759,7 @@ paréj
 pasas
 passzé
 paszta
+paszuly
 patak
 patics
 patkó
@@ -6465,6 +6569,8 @@ svung
 sváda
 szabad
 szabat
+szablya
+szabály
 szabás
 szabói
 szagló
@@ -6478,6 +6584,7 @@ szakad
 szakma
 szakos
 szakra
+szakács
 szakág
 szakít
 szalad
@@ -6491,6 +6598,7 @@ szalve
 szamba
 szamár
 szanál
+szapoly
 szapul
 szarik
 szarka
@@ -6498,24 +6606,31 @@ szaros
 szarul
 szarus
 szarás
+szattyú
+szatyor
 szatén
 szatír
+szatócs
 szauna
 szavak
 szaval
 szavas
 szavaz
 szcéna
+szecska
 szeder
 szedet
 szedál
 szedán
 szedés
+szegecs
 szegel
 szeges
 szeget
 szegez
 szegfű
+szegély
+szegény
 szegés
 szegül
 szekta
@@ -6530,6 +6645,7 @@ szellő
 szelén
 szelíd
 szembe
+szemcse
 szemek
 szemel
 szemen
@@ -6537,6 +6653,7 @@ szemer
 szemes
 szemez
 szemle
+személy
 szemét
 szende
 szenel
@@ -6559,6 +6676,7 @@ szervi
 szerző
 szeráf
 szeráj
+szerény
 szerét
 szetté
 szexis
@@ -6573,6 +6691,7 @@ sziget
 szigla
 szigma
 szignó
+szigony
 szigor
 szikes
 szikfű
@@ -6591,16 +6710,21 @@ szinte
 szipka
 szipog
 szipoj
+szipoly
 szirmú
 szirom
 szirup
 szirén
 szitok
+szittya
+szittyó
 szitál
 szitás
+szivacs
 szivar
 sziámi
 szkald
+szkeccs
 szkiff
 szkéma
 szkíta
@@ -6612,6 +6736,7 @@ szobás
 szobát
 szobáé
 szokik
+szoknya
 szokás
 szolga
 szolid
@@ -6632,14 +6757,18 @@ szpáhi
 sztepp
 sztori
 sztyep
+sztyepp
 szufla
 szuflé
 szuhar
 szulák
 szumér
+szunyál
 szuper
 szurok
+szurony
 szurát
+szutyok
 szuvas
 szving
 szájal
@@ -6670,16 +6799,23 @@ szárad
 szárak
 száras
 száraz
+szárcsa
 szárfa
 szárny
+szárnyé
+szárnyú
 szárít
 század
 százas
+százegy
 szédít
 szédül
+szégyen
 székel
+székely
 székes
 székfű
+székács
 széled
 széles
 szélez
@@ -6697,6 +6833,7 @@ szérűs
 szétfú
 szétfő
 szétlő
+szétnyű
 szétnő
 szétun
 szétég
@@ -6708,6 +6845,7 @@ szétűz
 szíjak
 szíjas
 szíjaz
+szíjács
 színek
 színes
 színez
@@ -6722,13 +6860,16 @@ szível
 szíves
 szívás
 szívós
+szívügy
 szóban
+szócska
 szócsó
 szócső
 szódás
 szódíj
 szófaj
 szófia
+szógyök
 szójel
 szókép
 szóköz
@@ -6750,6 +6891,8 @@ szóval
 szóvég
 szózat
 szóélc
+szöcske
+szögecs
 szögel
 szöges
 szögez
@@ -6757,10 +6900,12 @@ szökik
 szökve
 szökés
 szörny
+szörnyű
 szöszi
 szöveg
 szövet
 szövés
+szúnyog
 szúrat
 szúrás
 szúrós
@@ -6778,6 +6923,7 @@ szőkít
 szőkül
 szőlős
 szőlőt
+szőnyeg
 szőrme
 szőrök
 szőrös
@@ -6891,6 +7037,7 @@ sűrít
 sűrűn
 tabló
 tacskó
+tadzsik
 tagad
 tagló
 tagok
@@ -7125,6 +7272,7 @@ tyúkól
 tábesz
 tábla
 tábor
+tádzsik
 tágas
 tágul
 tágít
@@ -7400,6 +7548,7 @@ vedel
 veder
 vedlő
 vegyes
+vegyész
 vegyít
 vegyül
 vegán
@@ -7422,6 +7571,7 @@ verés
 vessző
 veszte
 vesztő
+veszély
 veszít
 veséz
 vetet
@@ -7461,6 +7611,8 @@ visel
 viskó
 vissza
 viszki
+viszony
+viszály
 visít
 vitae
 vitat
@@ -7592,6 +7744,8 @@ vízfő
 vízió
 vízkő
 vízmű
+vízszám
+vízszín
 vízum
 vízágy
 vízár
@@ -7657,8 +7811,11 @@ zsaruk
 zsarát
 zsebel
 zsebes
+zsebnyi
 zsemle
+zsemlye
 zsenge
+zsenyeg
 zserbó
 zseton
 zsezse
@@ -7674,6 +7831,8 @@ zsinór
 zsiráf
 zsirál
 zsivaj
+zsivaly
+zsivány
 zsióka
 zsongó
 zsozsó
@@ -7683,17 +7842,21 @@ zsupán
 zsurló
 zsuzsa
 zsuzsu
+zsáknyi
 zsákol
 zsákos
 zsálya
+zsámoly
 zsáner
 zsáraz
+zsávoly
 zsázsa
 zséter
 zsírkő
 zsíros
 zsíroz
 zsírzó
+zsöllye
 zsömle
 zsúfol
 zsúpol
@@ -7772,6 +7935,7 @@ zűrös
 ünőke
 ábrák
 ábécé
+ácsszeg
 áfium
 áfonya
 ágaké
@@ -7783,9 +7947,12 @@ zűrös
 ágyfák
 ágyikó
 ágyláb
+ágyszán
 ágytál
 ágyváz
 ágyéki
+ágyúcső
+ágyúszó
 ágzug
 áhító
 ájult
@@ -8067,6 +8234,7 @@ zűrös
 észhez
 észjog
 észlel
+észlény
 észter
 éteri
 étkes
@@ -8082,6 +8250,7 @@ zűrös
 ímhol
 ínpók
 ínség
+ínycsap
 ínyenc
 ínyére
 írmag
@@ -8236,6 +8405,7 @@ zűrös
 ügylet
 ügynek
 ügynök
+ügyszám
 ügyvéd
 ügyész
 ükanya
